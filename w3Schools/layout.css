@@ -1,0 +1,40 @@
+body{
+    
+    margin: 0 0 0 0;
+}
+
+.parent{
+    display: flex;
+height: 100%;
+gap: 5;
+    flex-wrap: wrap;
+
+
+}
+.header{
+       background-color: #00ffff;
+    flex-grow: 100;
+    width: 100%;   
+    
+
+    
+}
+.navi{
+
+    flex-grow: 50;
+    width: 20%; 
+     justify-content: space-between; 
+    background-color: blue;
+}
+.right{
+    flex-grow: 50;
+justify-content: center;   
+width: 20%;
+background-color: red;
+}
+
+.foot{
+    
+    width: 100%;
+    background-color: blueviolet;
+}
